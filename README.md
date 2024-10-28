@@ -1,3 +1,4 @@
+
 # E-commerce Clickstream Analysis 📈
 
 **Description**: This project involves an analysis of clickstream data from an e-commerce platform, focusing on customer behaviour, review influences, and user journeys. The project showcases exploratory data analysis (EDA) and insights derived from consumer interactions, reviews, and purchasing patterns.
@@ -9,7 +10,7 @@
 - [Introduction](#introduction)
 - [Project Context](#project-context)
 - [Analysis Overview](#analysis-overview)
-- [Results and Insights](#results-and-insights)
+- [Insights and Findings](#insights-and-findings)
 - [Files and Directory Structure](#files-and-directory-structure)
 - [Additional Resources](#additional-resources)
 - [Contact](#contact)
@@ -44,14 +45,23 @@ Key analytical steps in the Jupyter Notebook (`Project.ipynb`) include:
 
 ---
 
-## Results and Insights
+## Insights and Findings
 
-The analysis reveals insights into:
+The following insights were derived from the analysis:
 
-- The relative influence of review types on purchases and engagement, with visualizations to show the comparative impact.
-- Patterns in user navigation across product pages and reviews, highlighting common customer journeys.
+- **Review Influence on Purchases**: 
+  - Celebrity reviews showed a higher engagement rate compared to customer and video reviews. However, customer reviews had a more consistent influence on purchase decisions across various product categories.
+  - Video reviews had the least direct impact on purchases but helped improve overall engagement by retaining users on product pages longer.
 
-These findings can guide e-commerce platforms in optimising review placements and content strategies.
+- **Customer Journey Patterns**:
+  - Users who engaged with multiple review types (e.g., celebrity and customer reviews) were more likely to convert than those who only viewed a single type.
+  - A common user journey involved initial engagement with a celebrity review, followed by exploration of customer reviews, which often led to a purchase.
+
+- **Conversion Rate Insights**:
+  - The data highlighted peak engagement times, showing higher purchase rates during specific hours and days, which could guide targeted marketing efforts.
+  - Users from particular demographics and regions showed a greater likelihood of conversion after engaging with celebrity reviews.
+
+These insights indicate that a combined review strategy—leveraging celebrity, customer, and video reviews in tandem—may enhance customer engagement and conversion rates.
 
 ---
 
@@ -62,8 +72,7 @@ These findings can guide e-commerce platforms in optimising review placements an
 | `Project.ipynb`    | Main Jupyter Notebook containing the analysis and visualizations for Part I of the assignment. |
 | `README.md`        | Project documentation file (this file) outlining the project goals, methodology, and contact information. |
 
-
-**Note**: The dataset used in this analysis and presentation is not included due to privacy concerns. Please contact me at [vishalnavin@gmail.com](mailto:vishalnavin@gmail.com) for further details.
+**Note**: The dataset used in this analysis is not included due to privacy concerns. Please contact me at [vishalnavin@gmail.com](mailto:vishalnavin@gmail.com) for further details.
 
 ---
 
@@ -79,5 +88,3 @@ These findings can guide e-commerce platforms in optimising review placements an
 For further details on this analysis or access to the presentation, please reach out:
 
 - **Email**: [vishalnavin@gmail.com](mailto:vishalnavin@gmail.com)
-
----
